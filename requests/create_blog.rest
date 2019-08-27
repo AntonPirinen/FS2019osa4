@@ -1,9 +1,11 @@
 POST http://localhost:3003/api/blogs HTTP/1.1
 content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBldHJpIiwiaWQiOiI1ZDY1MTc3MDI1ZWFlYjIyZDBhZGRlOTYiLCJpYXQiOjE1NjY5MTEyNjN9.P3Gw6qLlL6rcJFgf-haWItAgbTPVHcS1IlXvROBraoI
 
 {
-  "title": "testi",
+  "title": "testit",
   "author": "jonne",
   "url": "jonne.fi",
-  "likes": 123
+  "likes": 123,
+  "userId": "5d65177025eaeb22d0adde96"
 }
